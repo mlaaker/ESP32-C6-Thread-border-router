@@ -36,7 +36,7 @@ border router, and nothing is sent to the cloud.
 
 ## Setup
 
-All commands run in Terminal.
+All commands run in Terminal (or free and amazing Terminal replacement [Warp](https://m13.me/trywarp)).
 
 ### 1. Download this project
 
@@ -174,4 +174,4 @@ CC0 1.0, like the Espressif example it's based on.
 
 ---
 
-*All Seeed Studio links on this page are affiliate links.*
+*All Seeed Studio and Warp links on this page are affiliate links.*
