@@ -1,8 +1,10 @@
-# A $5 Thread border router for Home Assistant (Seeed XIAO ESP32-C6)
+# Extend your Home Assistant Thread network quickly, cheaply, and easily using a $5 Seeed XIAO ESP32-C6 device
+
+[Matter](https://en.wikipedia.org/wiki/Matter_(standard)) promised a reliable cross-platform smart home standard, but has proven to be a bit more complicated. If you have Matter devices that use Thread networking but aren't close enough to a Thread 'border router,' you may find yourself flustered with how to get that device to connect to your smart home platform.
 
 Turn a Seeed Studio XIAO ESP32-C6 into a second Thread border router that joins your **existing** Home
 Assistant Thread network. Put it near Thread devices that are too far from your main border router,
-such as those in a garage, backyard studio, or detached building.
+such as those in a garage, barn, accessory dwelling unit (ADU), or detached building.
 
 ## Why you'd want one
 
@@ -21,7 +23,7 @@ border router, and nothing is sent to the cloud.
 
 ## What you need
 
-- **[Seeed Studio XIAO ESP32-C6](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html)** (about $5)
+- **[Seeed Studio XIAO ESP32-C6](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html?aff=PCLRfLw)** (about $5)
 - A **USB-C data cable**. Some cables only carry power; if no serial port appears, try another cable.
 - Any USB power adapter to run it once installed.
 - A **Mac** (these steps were tested on macOS) or a Linux PC.
