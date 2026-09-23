@@ -1,0 +1,25 @@
+menu "OpenThread Border Router Example"
+
+    config OTBR_INSTANCE_NAME
+        string "Border router name shown in Home Assistant"
+        default "ESP32-C6 OpenThread Border Router"
+        help
+            The MeshCoP service instance name, which Home Assistant shows in its Thread panel.
+
+    config OTBR_HOSTNAME
+        string "mDNS hostname (reachable as <hostname>.local)"
+        default "esp32c6-otbr"
+
+    config OPENTHREAD_SUPPORT_HW_RESET_RCP
+        bool 'Enable hardware RCP resetting'
+        default n
+        help
+            If enabled, the Thread Border Router will support hardware resetting the RCP
+            when processing RCP failure.
+
+    config OPENTHREAD_HW_RESET_RCP_PIN
+        int 'Pin to RCP reset'
+        depends on OPENTHREAD_SUPPORT_HW_RESET_RCP
+        default 7
+
+endmenu

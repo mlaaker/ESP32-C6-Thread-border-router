@@ -1,0 +1,13 @@
+# Single-chip border router: use the C6's own 802.15.4 radio, not an external RCP over UART.
+CONFIG_OPENTHREAD_RADIO_NATIVE=y
+CONFIG_OPENTHREAD_RADIO_SPINEL_UART=n
+CONFIG_ESP_COEX_SW_COEXIST_ENABLE=y
+# OpenThread CLI on the USB-C port (the XIAO's USB-C is USB-Serial/JTAG; as the secondary console it is output-only).
+CONFIG_OPENTHREAD_CONSOLE_ENABLE=y
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+# Headless: connect Wi-Fi and start the border router on boot (Wi-Fi credentials come from config.sh).
+CONFIG_OPENTHREAD_NETWORK_AUTO_START=y
+CONFIG_OPENTHREAD_CLI_WIFI=n
+CONFIG_EXAMPLE_CONNECT_WIFI=y
+# TREL: Thread over Wi-Fi/LAN, so this router links to Home Assistant's border router even with no radio path.
+CONFIG_OPENTHREAD_RADIO_TREL=y

@@ -1,0 +1,9 @@
+# Build output and generated config. sdkconfig and sdkconfig.user contain your Wi-Fi password.
+firmware/build/
+firmware/managed_components/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/sdkconfig.user
+.DS_Store
+__pycache__/
+firmware/dependencies.lock
