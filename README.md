@@ -23,7 +23,7 @@ border router, and nothing is sent to the cloud.
 
 ## What you need
 
-- **[Seeed Studio XIAO ESP32-C6](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html?aff=PCLRfLw)** (about $5)
+- **[Seeed Studio XIAO ESP32-C6](https://m13.me/esp32c6)** (about $5)
 - A **USB-C data cable**. Some cables only carry power; if no serial port appears, try another cable.
 - Any USB power adapter to run it once installed.
 - A **Mac** (these steps were tested on macOS) or a Linux PC.
@@ -171,3 +171,7 @@ All of this is in `firmware/sdkconfig.defaults.esp32c6` and `firmware/main/esp_o
 ## License
 
 CC0 1.0, like the Espressif example it's based on.
+
+---
+
+*All Seeed Studio links on this page are affiliate links.*
